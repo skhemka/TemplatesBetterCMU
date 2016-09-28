@@ -110,3 +110,13 @@ hr {
   line-height: 1;
   letter-spacing: -1px;
 }
+
+.panel-default{
+  color: #FDF3E7 ;
+  background-color: #3B3738;
+}
+
+.panel-default > .panel-heading, .panel-footer {
+  color: #FDF3E7;;
+  background-color: #C63D0F;
+}

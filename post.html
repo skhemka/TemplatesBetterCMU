@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="application/javascript" src="js/click.js"></script>
 </head>
 
 <body>
@@ -47,10 +49,10 @@
       </div>
       <div class="panel-footer">
         <p class="text-right">
-          <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> 1500
-          <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 1000
-          <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> 200
-          <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 20
+          <span id="#follow" class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> 1500  
+          <span id="#like" class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 1000 
+          <span id = "#dislike"class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> 200  
+          <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 20     
         </p>
       </div>
     </div>
@@ -68,8 +70,12 @@
               I feel this is not doable
             </div>
           </div>
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <input type="text" class="form-control" placeholder="Write comment ...">
+            </div>
+          </div>
         </div>
-        <input type="text" class="form-control" placeholder="Write comment ...">
       </div>
     </div>
 
